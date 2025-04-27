@@ -1,4 +1,4 @@
-# Banking-Loan-Report- PowerBI-PowerQuery-DAX 
+*Banking Loan Analysis with Power BI*
 
 📌 **Overview** :
 
