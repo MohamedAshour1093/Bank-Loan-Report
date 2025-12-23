@@ -1,84 +1,93 @@
-*Banking Loan Analysis with Power BI*
+# Banking Loan Analytics Dashboard | Power BI
 
-📌 **Overview** :
+## 📊 Project Overview
+This project analyzes bank loan data to support lending performance monitoring, borrower risk assessment, and portfolio-level decision-making.  
+The solution provides an interactive Power BI dashboard that enables stakeholders to track loan volume, funding, repayments, and borrower financial indicators.
 
+---
 
-This project analyzes  Bank loans  crucial financial tool that enables individuals and businesses to achieve their goals and manage financial needs. Also view  for borrowers the terms, costs, and responsibilities associated with loans to make informed financial decisions.
+## 🎯 Business Objective
+Financial institutions require clear visibility into loan performance to:
+- Monitor lending activity over time
+- Assess borrower financial health
+- Identify regional and demographic lending patterns
+- Support data-driven credit and portfolio decisions
 
-📊 **Key Features**
+This project replaces static analysis with an interactive dashboard for ongoing monitoring.
 
+---
 
-- **Total Loan Applications:** We need to calculate the total number of loan applications received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).
-  
-  
-- **Total Funded Amount:** Understanding the total amount of funds disbursed as loans is crucial. We also want to keep an eye on the MTD Total Funded Amount and analyse the Month-over-Month (MoM) changes in this metric.
+## 🛠️ Data Preparation & Modeling
+- Loaded and transformed loan data using **Power Query**
+- Cleaned and structured the dataset to ensure consistency and analytical accuracy
+- Modeled loan data to support time-based analysis and KPI calculations
 
+---
 
-- **Total Amount Received:** Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment. We should analyse the Month-to-Date (MTD) Total Amount Received and observe the Month-over-Month (MoM) changes.
+## 📐 Key Metrics & KPIs
+The dashboard tracks the following core lending metrics:
+- **Total Loan Applications**
+- **Total Funded Amount**
+- **Total Amount Received**
+- **Average Interest Rate**
+- **Average Debt-to-Income Ratio (DTI)**
 
-  
-- **Average Interest Rate:** Calculating the average interest rate across all loans, MTD, and monitoring the Month-over-Month (MoM) variations in interest rates will provide insights into our lending portfolio's overall cost.
+Time-based performance indicators:
+- **Month-to-Date (MTD)**
+- **Month-over-Month (MoM) changes**
 
-  
-- **Average Debt-to-Income Ratio (DTI):** Evaluating the average DTI for our borrowers helps us gauge their financial health. We need to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.
+---
 
+## 📊 Visual Analysis
+The dashboard includes:
 
+- **Monthly Loan Trends (Line Chart)**  
+  Identify seasonality and long-term lending patterns.
 
-*CHARTS*
-- **Monthly Trends by Issue Date (Line Chart):**  To identify seasonality and long-term trends in lending activities.
-  
-  
-- **Regional Analysis by State (Filled Map):** To identify regions with significant lending activity and assess regional disparities
+- **Regional Analysis by State (Filled Map)**  
+  Compare lending activity across regions.
 
-  
-- **Loan Term Analysis (Donut Chart):** To allow the client to understand the distribution of loans across various term lengths.
+- **Loan Term Distribution (Donut Chart)**  
+  Analyze loan distribution by term length.
 
-  
-- **Employee Length Analysis (Bar Chart):** How lending metrics are distributed among borrowers with different employment lengths, helping us assess the impact of employment history on loan applications.
-  
-- **Loan Purpose Breakdown** (Bar Chart): Will provide a visual breakdown of loan metrics based on the stated purposes of loans, aiding in the understanding of the primary reasons borrowers seek financing.
- 
-- **Home Ownership Analysis (Tree Map):** For a hierarchical view of how home ownership impacts loan applications and disbursements.
-  
-- *Metrics to be shown: 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'*
+- **Employment Length Analysis (Bar Chart)**  
+  Evaluate borrower employment stability.
 
-🛠️ **Tools & Technologies Used**
+- **Loan Purpose Breakdown (Bar Chart)**  
+  Understand why borrowers apply for loans.
 
-- **Power BI**: For data visualization and dashboard creation.
-- **DAX (Data Analysis Expressions)**: For custom calculations.
-- **Power Query**: For data transformation.
+- **Home Ownership Analysis (Tree Map)**  
+  Assess how ownership status impacts lending activity.
 
+---
 
-📷 **Dashboard Screenshots**
+## 📈 Business Insights
+- Lending activity shows clear monthly trends useful for forecasting.
+- Regional analysis highlights areas with higher loan demand.
+- Borrower employment length and home ownership provide additional context for risk assessment.
+- Loan purpose analysis supports understanding of borrower financial needs.
 
-- **Bank-Loan-Report|Summary** 
+---
 
-![Screenshot 2025-04-27 064307](https://github.com/user-attachments/assets/e64136f6-926a-48a0-8200-3996f7e3d31f)
+## 🧰 Tools & Technologies
+- **Power BI** — Dashboard development and visualization  
+- **DAX** — KPI calculations and time intelligence  
+- **Power Query** — Data transformation and preparation  
 
+---
 
-- **Bank-Loan-Report|Overview** 
+## 📷 Dashboard Screenshots
 
-![Screenshot 2025-04-27 064144](https://github.com/user-attachments/assets/c9826347-2216-4e6b-86ea-6b8bf5e04e49)
+### Summary View
+![Summary](https://github.com/user-attachments/assets/e64136f6-926a-48a0-8200-3996f7e3d31f)
 
+### Overview View
+![Overview](https://github.com/user-attachments/assets/c9826347-2216-4e6b-86ea-6b8bf5e04e49)
 
+### Detailed View
+![Details](https://github.com/user-attachments/assets/1f1d514c-6daa-4823-b4f6-6d1d4e7ab9cd)
 
-- **Bank-Loan-Report|Details**
+---
 
-
-
-![Screenshot 2025-04-27 064156](https://github.com/user-attachments/assets/1f1d514c-6daa-4823-b4f6-6d1d4e7ab9cd)
-
-
-
-
-📬 **Contact**
-
-For any questions or collaboration, reach out via:
-
-- GitHub Issues
-- Email: `mohamedashour1093@gmail.com`
-- LinkedIn: [Mohamed Ashour](https://www.linkedin.com/in/mohamed-ashour-b32980277?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bv5aFEI58R9Spp5QjR2MHSQ%3D%3D)
-
-
-
-
+## 📌 Notes
+This project reflects a real-world **banking analytics and BI workflow**, focusing on KPI monitoring, portfolio visibility, and stakeholder-ready reporting rather than exploratory analysis.
